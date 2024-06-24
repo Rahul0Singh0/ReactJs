@@ -1,2 +1,3 @@
 # ReactJs
-React Js is a library of javascript to use to create frontend dynamic component.
+## Introduction
+React Js is a library of javascript to use for building user interface.
