@@ -7,11 +7,56 @@ Once create component then reuse anytime and anywhere
 JSX =>
 
 ## npm vs npx vs yarn
-npm : node package manager is a tool which helps to setup our project.
+**Imp command :
+      1) Node version check : npm -v
+      2) npm & npx version  : npx/npm -v
+
+npm : all dependencies install on my system using npm tool then execute it 
+      node package manager is a tool which helps to setup our project.
       mainly used to install packages.
-      you will have your own react-app project in place without the need to install create-react-app itself( which will need another passage: npm install create-react-app and then create-react-app my-app)
-npx : node package execute is a tool which helps to setup the project.
+      you will have your own react-app project in place without the need to install create-react-app itself
+      1. npm install -g create-react-app
+      2. create-react-app reactproject
+
+npx : node package execute is a tool which helps to setup the project. 
       to execute packages.
-      if u want to execute a package without installing it on ur computer 
+      if u want to execute a package(dependencies) without installing it on ur computer 
       and then launch it u can use npx directly.
-      -> npx create-react-app mp-app
+      1. npx create-react-app mp-app
+
+dependencies: A dependency is a piece of code—a library, a module, or a package—that
+              a project requires to function correctly. In Node. js, dependencies and
+              devDependencies are categories of packages you can define in your package.
+              json file to manage your project's dependencies
+
+Lecture 3: DOM => Document Object Model
+           Document = HTML Document
+           Object   = Html Elements or tags
+           Model    = Complete Document (in which all objects are arrange)
+
+      Virtual DOM : is a replica of existing DOM(copy of original DOM)
+           In react for every DOM object, there is a corresponding "Virtual DOM"
+           object. A virtual DOM object is a representation of a DOM object like a lightweight copy
+           It has same properties as a real DOM object but it lacks the real thing's power
+           to directly change what's on the screen.
+
+Lecture 4: all installed dependencies in node_modules folder are listed in package-lock.json file'
+           File structure of react app
+              1. top file index.html(src folder) root div in this file
+              2. index.js(src) start execution from here
+              3. App.js all elements/objects created in Document from this file
+            
+
+Lecture 5: JSX is a javascript XML (XML stands for Extensible Markup Language)
+           XML provide rules to define any data
+           JSX is a syntax extensive for Js
+           JSX lets you write HTML like markup inside a JS file
+           Although there are other ways to write components, most react developers prefer the conciseness of JSX
+           example : const e = <h1> Hello </h1>
+           JSX introduce in ECMAScript6
+
+           Note: can use one component into another components.
+           Note: A markup language is a text-encoding system which specifies 
+                 the structure and formatting of a document and potentially the 
+                 relationship between its parts. Markup can control the display of
+                 a document or enrich its content to facilitate automated processing.

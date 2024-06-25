@@ -1,0 +1,30 @@
+React Components let u break up the user interface into separate pieces
+that can then be reused and handled independently.
+
+One component can contain multiple HTML elements/objects
+
+Functional Components
+    
+    1.  Functional Components are basic JS functions. These are typically arrow functions
+        but can also be created with the regular function keyword.
+    2.  React lifecycle methods (for example, ComponentDidMount) cannot be used in functional Components (used in class component).
+    3.  There is no render method used in functional Components.
+        means it is use only where there are only return html elements/objects( whenever create only UI )
+    4.  These are mainly responsible for UI and are typically presentational only (for example, a button component).
+    5.  Functional components can accept and use props(props is a property).
+    6.  Functional Components should be favored if you do not need to make use of React state.
+
+Class Components
+
+    1.  class components make use of ES6 class and extend the component class in react.
+    2.  Sometimes called "smart" or "stateful" components as 
+    3.  React lifecycle methods can be used inside class components
+        example, ComponentDidMount
+    4.  you pass props down to class components and access to 
+
+
+Note:React renders HTML to the web page by using a function called render().
+     The purpose of the function is to display the specified HTML code inside
+     the specified HTML element. In the render() method, we can read props and
+     state and return our JSX code to the root component of our app.
+     (render means giver)
