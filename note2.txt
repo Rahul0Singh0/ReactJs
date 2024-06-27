@@ -1,0 +1,5 @@
+Event Handling: 
+
+Note: A function is an independent. Doesn't need any object(declare in functional component)
+      while method is a function, which is linked with any object(declare in class component)
+      

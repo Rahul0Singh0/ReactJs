@@ -28,3 +28,38 @@ Note:React renders HTML to the web page by using a function called render().
      the specified HTML element. In the render() method, we can read props and
      state and return our JSX code to the root component of our app.
      (render means giver)
+
+**Note: Functional               vs           Class component
+      ->Simple JS Function             ->Maintain their own private
+      ->Use functional as                data
+        much as possible               ->Provide Lifecycle hooks
+      ->mainly responsible
+        for UI
+      ->stateless but 
+        after 16.7.0 new concept
+        Hooks
+
+Hooks: are javascript functions, but they impose two additional rules:
+        1.Only call Hooks at the top level. Don't call hooks inside loops,
+          conditions, or nested functions.
+        2.Only call Hooks from React function components. Don't call Hooks
+          from regular JS functions.
+          (There is just one other valid place to call Hooks - your own custom
+          Hooks.) 
+
+props: with the help of props component recieve defined attribute's value use it/display it 
+       props is immutable means once assign value in props after that cannot assign value
+
+       1. props get passed to the component
+       2. props are immutable
+       3. to access props, pass in the function - functional component
+       4. using this keyword to access props - class component
+
+state: 1. state is managed within the component
+       2. state can be changed
+       3. UseState Hook use in functional component as well
+       4. we this.state in class component
+  
+Note: Super() function is to call the constructor of the parent class.
+      this keyword: When using 'this' in an object, this will refer to the object itself.
+                    This makes it easy to refer to an object's values in the object's methods.

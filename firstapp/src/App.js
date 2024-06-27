@@ -2,7 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import {Header} from './components/Header';
-                                               
+import ClassHeader from './components/ClassHeader';
+import Channel from './components/Channel';
+import FunctionClick from './components/FunctionClick';
+import CFunctionClick from './components/CFunctionClick';
+
 // const name = <span>Hello React</span>
 
 // // Without JSX
@@ -43,8 +47,24 @@ import {Header} from './components/Header';
 class App extends React.Component{ // Component is a class within React component
   render() {
     return (
-      <div className='App'>
-        <Header/> {/* Here html tag itself component */}
+      <div className="App">
+      {/* given name attribute in Header component
+      values of name attribute display through props property 
+      props is immutable*/}
+        <Header name = "Rahul" last = "Singh"/> {/* Here html tag itself component */}
+        <Header name = "Nitesh" last = "Singh"/>
+        <Header name = "Harsh">
+        {/* in between component tag, all these are treat as children */}
+          <p>Harsh is a good boy</p>
+          <a href=''>click here</a> {/* hyperlink */}
+        </Header>
+        <ClassHeader/>
+        <ClassHeader name = "Rahul" last = "Singh"/>
+
+        <Channel/>
+        <FunctionClick/>
+
+        <CFunctionClick roll = "22"/>
       </div>
     );
   }
