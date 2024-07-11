@@ -12,6 +12,7 @@ class CFunctionClick extends Component {
             roll: this.props.roll
         }
     }
+
     // bind 'this' in constructor, then also 'this' can access in normal method/function
     // changeEvent() { // Method
     //     console.log('Hello Event Handling in Class Component',this.state.course)
@@ -27,12 +28,26 @@ class CFunctionClick extends Component {
     }
 
     render() {
+        const numbers = this.props.numbers
+        // const numbers = [3,4,5,6];
+        // map returns callback function
+        // const newNumbers = numbers.map((numbers) => { return <li>{numbers}</li> })
+
+        // console.log(numbers)
+        // console.log(newNumbers)
+
         return(
-            <div>
+            <React.Fragment>
                 <button onClick={this.changeEvent}>Hit me</button>
                 {this.state.course}
                 {this.props.roll}
-            </div>
+                <ul>
+                    {
+                        numbers.map((numbers) => { return <li key = {numbers}>{ numbers }</li>})
+                    }
+                </ul>
+                {numbers[0]} {/**Direcltly access*/}
+            </React.Fragment>
         )
     }
 }

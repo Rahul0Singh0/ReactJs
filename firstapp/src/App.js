@@ -6,6 +6,12 @@ import ClassHeader from './components/ClassHeader';
 import Channel from './components/Channel';
 import FunctionClick from './components/FunctionClick';
 import CFunctionClick from './components/CFunctionClick';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
+import './appstyle.css';
+import Style from './appstyle.module.css';
+import Form from './components/Form';
+import Routing from './components/Routing';
 
 // const name = <span>Hello React</span>
 
@@ -34,8 +40,7 @@ import CFunctionClick from './components/CFunctionClick';
 //     </div>
 //   );
 // }
-
-
+ 
 
 // class component
 // class App extends React.Component{ // Component is a class within React component
@@ -46,25 +51,33 @@ import CFunctionClick from './components/CFunctionClick';
 
 class App extends React.Component{ // Component is a class within React component
   render() {
+    const numbers = [3,4,5,6];
     return (
-      <div className="App">
-      {/* given name attribute in Header component
-      values of name attribute display through props property 
-      props is immutable*/}
-        <Header name = "Rahul" last = "Singh"/> {/* Here html tag itself component */}
-        <Header name = "Nitesh" last = "Singh"/>
-        <Header name = "Harsh">
-        {/* in between component tag, all these are treat as children */}
-          <p>Harsh is a good boy</p>
-          <a href=''>click here</a> {/* hyperlink */}
-        </Header>
-        <ClassHeader/>
-        <ClassHeader name = "Rahul" last = "Singh"/>
+      // <div className="App">
+      // {/* given name attribute in Header component
+      // values of name attribute display through props property 
+      // props is immutable*/}
+      //   <Header name = "Rahul" last = "Singh"/> {/* Here html tag itself component */}
+      //   <Header name = "Nitesh" last = "Singh"/>
+      //   <Header name = "Harsh">
+      //   {/* in between component tag, all these are treat as children */}
+      //     <p>Harsh is a good boy</p>
+      //     <a href=''>click here</a> {/* hyperlink */}
+      //   </Header>
+      //   {/* <ClassHeader/> */}
+      //   <ClassHeader name = "Rahul" last = "Singh"/>
 
-        <Channel/>
-        <FunctionClick/>
-
-        <CFunctionClick roll = "22"/>
+      //   <Channel/>
+      //   <FunctionClick/>
+      //   <CFunctionClick roll = "22" numbers = {numbers}/>
+      // </div>
+      <div className='App'>
+         {/* <h1 className={Style.success}>Green</h1>
+         <h1 className='error'>Error</h1>
+         <Stylesheet isvalue={false}></Stylesheet>
+         <Inline></Inline> */}
+         {/* <Form></Form> */}
+         {/* <Routing></Routing> */}
       </div>
     );
   }

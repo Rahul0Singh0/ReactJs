@@ -3,3 +3,37 @@ Event Handling:
 Note: A function is an independent. Doesn't need any object(declare in functional component)
       while method is a function, which is linked with any object(declare in class component)
       
+note: forcefully stopped/prevent the Event, using preventDefault()function
+      it works like return false
+
+Fragment:  
+
+map : 
+
+CallBacks: are a great way to handle something after something else has been completed. 
+           By something here we mean a function execution.
+           If u want to execute a function, then CallBacks can be used.
+           Note: JS functions have the type of objects. So, much like any other objects(String, Arrays etc.)
+                 They can be passed as an argument to any other function while calling.
+            example:
+                  function add(a, b, callback) {
+                        document.write(`The sum of ${a} and ${b} is ${a+b}`);
+                        callback();
+                  }
+
+                  function disp() {
+                        document.write("This must be printed after add");
+                  }
+
+                  add(5, 6, disp)
+
+                  or 
+
+                  add(5, 6, disp() {
+                        document.write("This must be printed after add");
+                  })
+
+
+Key in React: make sure key is unique for the particular element
+              key is the string attribute
+              u must be include

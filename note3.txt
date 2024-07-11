@@ -1,0 +1,7 @@
+Stylesheet use with react
+Inline Stylesheet
+
+Form in react
+
+**Routing in React: It helps without refreshing page getting the data
+   for routing -> install dependency -> npm install react-router-dom
