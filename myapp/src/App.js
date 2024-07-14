@@ -76,8 +76,8 @@ class App extends React.Component{ // Component is a class within React componen
          <h1 className='error'>Error</h1>
          <Stylesheet isvalue={false}></Stylesheet>
          <Inline></Inline> */}
-         {/* <Form></Form> */}
-         {/* <Routing></Routing> */}
+         <Form></Form>
+         <Routing></Routing>
       </div>
     );
   }

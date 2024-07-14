@@ -2,6 +2,7 @@ import React from 'react'
 import {BrowserRouter as Router,
     Switch,
     Route,
+    Routes,
     Link} 
     from 'react-router-dom';
 
@@ -23,18 +24,18 @@ export default function Routing() {
                 </ul>
             </nav>
         </div>
-        <Switch>
+        {/* Switch is not available till now So, alternative is Routes */}
+        <Routes>
             {/* child component */}
-            <Route path='/'>
-                <Home></Home>
+            <Route path='/' element={<Home/>}>
             </Route>
-            <Route path='/about'>
-                <About></About> {/*call component */}
+            <Route path='/about' element={<About/>}>
+                {/* <About></About> call component in Switch */}
             </Route>
-            <Route path='/Users'>
-                <Users></Users> {/*call component */}
+            <Route path='/users' element = {<Users/>}>
+                {/* <Users></Users> call component in Switch*/}
             </Route>
-        </Switch>
+        </Routes>
     </Router>
   )
 }
