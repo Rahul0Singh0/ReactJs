@@ -16,6 +16,7 @@ class LifeCycleA extends Component {
     }
 
     // After Component Rendered, use below method
+    // this method called, when component will added to actual DOM
     componentDidMount() {
         console.log("LifeCycleB : componentDidMount");
     }
