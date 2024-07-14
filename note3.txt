@@ -5,3 +5,7 @@ Form in react
 
 **Routing in React: It helps without refreshing page getting the data
    for routing -> install dependency -> npm install react-router-dom
+   we use Routes instead of Switch component because Switch is removed from Routing
+
+**React Life Cycle Methods : use only in Class component
+                 flow of methods executions are already decided

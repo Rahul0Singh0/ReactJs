@@ -12,6 +12,8 @@ import './appstyle.css';
 import Style from './appstyle.module.css';
 import Form from './components/Form';
 import Routing from './components/Routing';
+import LifeCycleA from './components/LifeCycleA';
+import Product from './components/Product';
 
 // const name = <span>Hello React</span>
 
@@ -76,8 +78,10 @@ class App extends React.Component{ // Component is a class within React componen
          <h1 className='error'>Error</h1>
          <Stylesheet isvalue={false}></Stylesheet>
          <Inline></Inline> */}
-         <Form></Form>
-         <Routing></Routing>
+         {/* <Form></Form>
+         <Routing></Routing> */}
+         {/* <LifeCycleA /> */}
+         <Product />
       </div>
     );
   }
