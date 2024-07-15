@@ -1,1 +1,9 @@
-Hooks: hooks are introduce in React 16.8
+Hooks: ->Hooks are functions that let you "hook into" React state and lifecycle features from function component
+       ->Hooks allow you to use React without classes. It means you can use state and other React features 
+         without writing a class.
+       ->React provides a few built-in Hooks like useSate, useEffect etc.
+       ->Hooks are introduce in React 16.8
+       When use Hooks: If you write a function component and realize you need to add some state to it.
+       all those are using in class component and can't use directly in functional component
+       like state, Life Cycle Methods etc.... can be use in functional component also with the help of 
+       hooks
