@@ -25,6 +25,7 @@ export default class Form extends Component {
         // prevent load the data (we don't want to submit data)
     }
   render() {
+    // const {username, address} = this.state
     return (
       <form onSubmit={this.handleSubmit}>
         <div>

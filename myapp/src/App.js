@@ -14,6 +14,8 @@ import Form from './components/Form';
 import Routing from './components/Routing';
 import LifeCycleA from './components/LifeCycleA';
 import Product from './components/Product';
+import PostList from './components/PostList';
+import PostForm from './components/PostForm';
 
 // const name = <span>Hello React</span>
 
@@ -81,7 +83,9 @@ class App extends React.Component{ // Component is a class within React componen
          {/* <Form></Form>
          <Routing></Routing> */}
          {/* <LifeCycleA /> */}
-         <Product />
+         {/* <Product /> */}
+         {/* <PostList /> */}
+         <PostForm />
       </div>
     );
   }
