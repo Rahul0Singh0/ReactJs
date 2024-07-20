@@ -16,6 +16,12 @@ import LifeCycleA from './components/LifeCycleA';
 import Product from './components/Product';
 import PostList from './components/PostList';
 import PostForm from './components/PostForm';
+import Counter from './components/Counter';
+import HookCounter from './components/HookCounter';
+import HookObject from './components/HookObject';
+import HookArray from './components/HookArray';
+import ClassCounterOne from './components/ClassCounterOne';
+import FunctionCounterOne from './components/FunctionCounterOne';
 
 // const name = <span>Hello React</span>
 
@@ -85,7 +91,13 @@ class App extends React.Component{ // Component is a class within React componen
          {/* <LifeCycleA /> */}
          {/* <Product /> */}
          {/* <PostList /> */}
-         <PostForm />
+         {/* <PostForm /> */}
+         {/* <Counter></Counter> */}
+         {/* <HookCounter /> */}
+         {/* <HookObject></HookObject> */}
+         {/* <HookArray></HookArray> */}
+         <ClassCounterOne/>
+         <FunctionCounterOne/>
       </div>
     );
   }

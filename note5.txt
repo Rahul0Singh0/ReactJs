@@ -7,3 +7,10 @@ Hooks: ->Hooks are functions that let you "hook into" React state and lifecycle 
        all those are using in class component and can't use directly in functional component
        like state, Life Cycle Methods etc.... can be use in functional component also with the help of 
        hooks
+
+       1. useSate
+       2. useEffect : by default calls whenever update or rendered component
+       3. useState with Object
+    
+Revision: To achieve same working of componentDidMount and componentDidUpdate in class component, we use useEffect
+          in function component
