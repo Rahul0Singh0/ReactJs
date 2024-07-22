@@ -22,6 +22,12 @@ import HookObject from './components/HookObject';
 import HookArray from './components/HookArray';
 import ClassCounterOne from './components/ClassCounterOne';
 import FunctionCounterOne from './components/FunctionCounterOne';
+import ClassMouse from './components/ClassMouse';
+import FClassMouse from './components/FClassMouse';
+import A from './components/A';
+import Vikas from './components/Vikas';
+import Ajay from './components/Ajay';
+import Susant from './components/Susant';
 
 // const name = <span>Hello React</span>
 
@@ -96,8 +102,14 @@ class App extends React.Component{ // Component is a class within React componen
          {/* <HookCounter /> */}
          {/* <HookObject></HookObject> */}
          {/* <HookArray></HookArray> */}
-         <ClassCounterOne/>
-         <FunctionCounterOne/>
+         {/* <ClassCounterOne/>
+         <FunctionCounterOne/> */}
+         {/* <ClassMouse /> */}
+         {/* <FClassMouse/> */}
+         {/* <A /> */}
+         <Vikas/>
+         <Ajay/>
+         <Susant/>
       </div>
     );
   }

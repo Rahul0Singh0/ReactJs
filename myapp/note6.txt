@@ -1,0 +1,14 @@
+Angular VS React
+
+
+Retrieve the position(x,y)
+
+Context: In a typically React Application, data is passed top-down (parent to child) via props, but this can be cumbersome
+         for certain types of props (e.g. locale preference, UI theme) that are required by many components within 
+         an Application.
+         Context provides a way to pass data through the component tree without having to pass props down manually 
+         at every level.
+
+High Order Component: HOC is an advanced technique in React for reusing 
+        component logic. HOCs are not part of the React API, per se.
+        They are a pattern that emerges from React's composition nature.
