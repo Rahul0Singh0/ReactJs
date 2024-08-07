@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>React</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div id="root">
-        <!-- <h1>Hello World!</h1> -->
+        <!-- This Hello world! is replaced by the parent tag through rendering from App.js on browser -->
+        <h1>Hello World!</h1>
     </div>
     <!-- Now our project has react inside it. -->
      <!-- Core react code -->
@@ -15,12 +17,13 @@
     <!-- This file is kind of like a bridge between this react and browser -->
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     
-    <script>
+    <script src="App.js"></script>
+    <!-- <script>
         const heading = React.createElement("h1", {}, "Hello World front React!");
         const root = ReactDOM.createRoot(document.getElementById("root"));
         // rendering the root
         root.render(heading);
-    </script>
+    </script> -->
 
 <!-- <script>
     const heading = document.createElement("h1");
