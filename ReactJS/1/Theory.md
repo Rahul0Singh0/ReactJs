@@ -8,3 +8,8 @@
       We are just fetching the react putting in the our code using CDN link
 
 ## Q: What is `Crossorigin`?
+
+## npm
+  npm does not stands for node package manager
+  npm manages packages but does not stands for node package manager.
+  npm is a standards repository for all the packages. 
