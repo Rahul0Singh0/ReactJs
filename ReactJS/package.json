@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/Rahul0Singh0/ReactJs/issues"
   },
-  "homepage": "https://github.com/Rahul0Singh0/ReactJs#readme"
+  "homepage": "https://github.com/Rahul0Singh0/ReactJs#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "react-dom": "^18.3.1"
+  }
 }
