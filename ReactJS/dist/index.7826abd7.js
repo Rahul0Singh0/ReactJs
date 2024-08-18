@@ -602,26 +602,26 @@ var _clientDefault = parcelHelpers.interopDefault(_client);
 //     )
 // )
 // create two elements as a siblings
-const parent = (0, _reactDefault.default).createElement("div", {
+const parent = /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
     id: "parent"
 }, // Array of Children
-(0, _reactDefault.default).createElement("div", {
+/*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
     id: "child"
 }, [
-    (0, _reactDefault.default).createElement("h1", {}, "I am h1 tag.\uD83D\uDE80"),
-    (0, _reactDefault.default).createElement("h2", {}, "I am h2 tag.")
-]), (0, _reactDefault.default).createElement("div", {
+    /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "I am h1 tag.\uD83D\uDE80"),
+    /*#__PURE__*/ (0, _reactDefault.default).createElement("h2", {}, "I am h2 tag.")
+]), /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
     id: "child2"
 }, [
-    (0, _reactDefault.default).createElement("h1", {}, "I am h1 tag."),
-    (0, _reactDefault.default).createElement("h", {}, "I am h2 tag.")
+    /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "I am h1 tag."),
+    /*#__PURE__*/ (0, _reactDefault.default).createElement("h", {}, "I am h2 tag.")
 ]));
 // JSX: will make our life easy when we have to create tags.
 // modern react development
 console.log(parent);
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(parent);
-const heading = (0, _reactDefault.default).createElement("h1", {
+const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
     id: "heading",
     xyz: "abc"
 }, "Hello World front React!"); // heading is an Object

@@ -30,6 +30,14 @@
    - Minification
    - Bundling
    - Compressing the files
+   - Consistent Hashing
+   - Code Splitting
+   - Differential Budling - support older browsers
+   - Diagnostic
+   - Error Handling
+   - HTTPs
+   - Tree Shaking - remove used code
+   - Different dev and prod bundles
 
 ## Node_Modules
    It contains all the code that 
