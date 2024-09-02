@@ -1,6 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+// React Element equivalent to DOM Element
+
+// React.createElement() => Object => HTMLElement(render)
+const heading = React.createElement("h1", {id:"heading"}, "Namastey React");
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+
+
+
+
+
+
+
+
+/* 
 // to achieve nested html structure using react
 // const parent = React.createElement("div",{id: "parent"},
 //     React.createElement("div",{id: "child"},
@@ -42,3 +57,4 @@ const heading = React.createElement(
 // rendering the root
 // It is just putting the parent/heading elements inside the root tag
 // root.render(heading);
+*/
