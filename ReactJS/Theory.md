@@ -47,3 +47,4 @@
 
 ## npx
    npx is used to execute bundler or packages.
+   npx parcel index.html or npm run start
