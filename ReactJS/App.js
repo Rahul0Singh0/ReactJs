@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 // React Element equivalent to DOM Element
+// React.createElement => Object => HTMLElement(render)
 
 const heading = React.createElement(
     "h1", 
@@ -9,9 +10,22 @@ const heading = React.createElement(
     "Namastey React 🚀"
 );
 
+console.log(heading)
+
+// JSX is an XML-like syntax extension to ECMAScript without any defined semantics.
+// It's NOT intended to be implemented by engines or browsers.
+// JSX is JS syntax which is easier to create React Element
+// JSX helps to write HTML code in React
+// h1 tag create using jsx
+// jsx - html like or xml like syntax but not html or xml
+// Note: Can't say that html inside JS or xml inside JS (Wrong Definition)
+const jsxHeading = <h1 id="heading">Namastey React using JSX 🚀</h1>
+// jsxHeading is React Element(Object) and <h1>Namastey React using JSX</h1> is JSX.
+console.log(jsxHeading);
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(heading);
+root.render(jsxHeading);
 
 
 
